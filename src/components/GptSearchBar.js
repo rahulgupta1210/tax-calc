@@ -89,7 +89,7 @@ const GptSearchBar = () => {
                             onChange={(e) => setIncome(e.target.value)}
                         />
                     </div>
-                    <div className='col-span-1 md:col-span-3'>
+                   <div className='col-span-1 md:col-span-3'>
                         <label htmlFor='taxableIncome' className='block text-white text-sm'>Taxable Income After Standard Deduction:</label>
                         <input
                             className='w-full p-2 my-2 bg-gray-700 text-xl'
@@ -109,7 +109,9 @@ const GptSearchBar = () => {
                             readOnly
                         />
                         <h5 className='text-white text-sm'>87A Rebate till 60000</h5>
-                    </div>
+                    </div> 
+
+                    
                     
                     <div className='flex justify-center align-middle'>
                     <div className=''>
